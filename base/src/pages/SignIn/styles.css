@@ -1,0 +1,36 @@
+.container-sign-in{
+  justify-content: center;
+}
+
+.sign-in {
+  background-color: #44444D;
+  width: 494px;
+  height: 475px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  width: 300px;
+}
+
+.link {
+  text-decoration: none;
+  text-transform: none;
+  color: white;
+}
+
+.sign-in form span {
+  font-size: 1.2rem;
+}
+
+.sign-in form button {
+  margin-top: 44px;
+}
